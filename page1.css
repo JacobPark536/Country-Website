@@ -1,0 +1,94 @@
+html, body{
+height:100%;
+font-family:Arial;
+margin:0 auto;
+}
+
+
+body{
+  font-family:Arial;
+ 
+#banner{
+height:200px;
+justify-content:center;
+text-align:center;
+background-color:red;
+color:white;
+padding:30px;
+}
+.container{
+display:flex;
+background-color:blue;
+padding:10px;
+}
+nav a{
+flex:1;
+padding:20px;
+text-align:center;
+color:white;
+font-size:16px;
+}
+
+#info{
+margin-left:100px;
+margin-top:30px;
+width:38%;
+font-size:15pt;
+background-color: rgb(255, 102, 102);
+padding:40px;
+}
+
+#sidebar{
+margin-left:100px;
+margin-top:80px;
+width:38%;
+font-size:15pt;
+background-color:lightblue;
+padding:40px;
+}
+
+#koreas{
+margin-left:100px;
+margin-top:80px;
+width:38%;
+font-size:15pt;
+background-color: rgb(255, 102, 102);
+padding:40px;
+}
+
+#photos{
+margin-left:1050px;
+margin-top:-2960px;
+width:38%;
+font-size:15pt;
+background-color:lightblue;
+padding:40px;
+}
+
+#photos1{
+	margin-left:1050px;
+	margin-top:83px;
+	width:38%;
+	font-size:15pt;
+	background-color: rgb(255, 102, 102) ;
+	padding:40px;
+}
+
+#photos2{
+	margin-left:1050px;
+	margin-top:83px;
+	width:38%;
+	font-size:15pt;
+	background-color:lightblue;
+	padding:40px;
+}
+
+#footer{
+	flex:1;
+	justify-content:space-between;
+	text-align:center;
+	color:white;
+	background-color:blue;
+	padding:50px;
+	font-size:15pt;
+}
